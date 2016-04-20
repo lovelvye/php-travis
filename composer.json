@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ive\\Common\\": "src/"
+            "Ive\\Common\\": "src/Ive/Common"
         }
     }
 }
