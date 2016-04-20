@@ -9,7 +9,7 @@ class Str
         return strtoupper($str);
     }
 
-    static public function toLower($str)
+    public static function toLower($str)
     {
         return strtolower($str);
     }
