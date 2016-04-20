@@ -8,4 +8,9 @@ class Str
     {
         return strtoupper($str);
     }
+
+    static public function toLower($str)
+    {
+        return strtolower($str);
+    }
 }
