@@ -11,3 +11,5 @@ php:
 before_script:
   - composer self-update
   - composer instal --prefer-source
+
+sudo: false
