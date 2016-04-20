@@ -8,4 +8,9 @@ class StrTest extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals(strtoupper('test'), Str::toUpper('test'));
     }
+
+    public function testToLower()
+    {
+        $this->assertEquals(strtolower('TEST'), Str::toLower('TEST'));
+    }
 }
