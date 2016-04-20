@@ -2,7 +2,7 @@
 
 class Str
 {
-    static public function toUpper($str)
+    public static function toUpper($str)
     {
         return strtoupper($str);
     }
