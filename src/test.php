@@ -1,8 +1,14 @@
 <?php
 
-class Test { public function FunctionName($value=''){
-    # code...
-} public function test($value='')
+class test
 {
-    # code...
-} }
+    public function FunctionName($value = '')
+    {
+        // code...
+    }
+
+    public function test($value = '')
+    {
+        // code...
+    }
+}
