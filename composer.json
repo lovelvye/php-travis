@@ -1,5 +1,6 @@
 {
     "name": "lovelvye/php-travis",
+    "type": "project",
     "authors": [
         {
             "name": "lovelvye",
@@ -8,6 +9,6 @@
     ],
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "5.3"
+        "phpunit/phpunit": "^4.0"
     }
 }
