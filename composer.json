@@ -1,0 +1,10 @@
+{
+    "name": "lovelvye/php-travis",
+    "authors": [
+        {
+            "name": "lovelvye",
+            "email": "lovelvye@gmail.com"
+        }
+    ],
+    "require": {}
+}
