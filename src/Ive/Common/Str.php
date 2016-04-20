@@ -13,4 +13,14 @@ class Str
     {
         return strtolower($str);
     }
+
+    static public function addSlashes($str)
+    {
+        return addslashes($str);
+    }
+
+    static public function stripSlashes($str)
+    {
+        return stripslashes($str);
+    }
 }

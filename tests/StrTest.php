@@ -13,4 +13,14 @@ class StrTest extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals(strtolower('TEST'), Str::toLower('TEST'));
     }
+
+    public function testAddSlashes()
+    {
+        $this->assertEquals(addslashes("'"), Str::addSlashes("'"));
+    }
+
+    public function testStripSlashes()
+    {
+        $this->assertEquals(stripslashes("\'"), Str::stripSlashes("\'"));
+    }
 }
