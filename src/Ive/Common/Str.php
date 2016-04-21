@@ -24,7 +24,7 @@ class Str
         return stripslashes($str);
     }
 
-    static public function trim($str, $chars = " \t\n\r\0\x0B")
+    public static function trim($str, $chars = " \t\n\r\0\x0B")
     {
         return trim($str, $chars);
     }
