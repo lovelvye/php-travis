@@ -23,4 +23,9 @@ class StrTest extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals(stripslashes("\'"), Str::stripSlashes("\'"));
     }
+
+    public function testTrim()
+    {
+        $this->assertEquals(trim(" \t\n\r\0\x0B"), Str::trim(" \t\n\r\0\x0B"));
+    }
 }
